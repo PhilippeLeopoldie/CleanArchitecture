@@ -1,4 +1,5 @@
 using EmployeesApp.Application;
+using EmployeesApp.Infrastructure.Persistence.Repositories;
 using EmployeesApp.Web.Models;
 
 
@@ -15,6 +16,7 @@ namespace EmployeesApp.Web
             //builder.Services.AddSingleton<EmployeeService>();
             //builder.Services.AddSingleton<IEmployeeService, EmployeeService>();
             builder.Services.AddSingleton<IEmployeeService, OtherEmployeeService>();
+            builder.Services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
             builder.Services.AddScoped<MyLogServiceFilterAttribute>();
             var app = builder.Build();
             app.UseStaticFiles();
