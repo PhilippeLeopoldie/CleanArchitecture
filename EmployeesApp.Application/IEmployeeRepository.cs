@@ -2,13 +2,9 @@
 
 namespace EmployeesApp.Application;
 
-public interface IEmployeeService
+public interface IEmployeeRepository
 {
     void Add(Employee employee);
-
     Employee[] GetAll();
-
-    Employee GetById(int id);
-
-    public bool CheckIsVIP(Employee employee);
+    Employee? GetById(int id);
 }
