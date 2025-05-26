@@ -10,20 +10,13 @@ public class EmployeeService(IEmployeeRepository employeeRepository) : IEmployee
     }
 
 
-    // Collection expression syntax, introduced in C# 12.
+
     public Employee[] GetAll()
     {
         return employeeRepository.GetAll();
     }
 
 
-    ////Classic C# syntax for GetAll()
-    //public Employee[] GetAll()
-    //{
-    //    return employees
-    //        .OrderBy(e => e.Name)
-    //        .ToArray();
-    //}
 
     public Employee GetById(int id)
     {
