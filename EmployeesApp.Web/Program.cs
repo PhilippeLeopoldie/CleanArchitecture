@@ -15,7 +15,7 @@ namespace EmployeesApp.Web
             //builder.Services.AddTransient<EmployeeService>();
             //builder.Services.AddSingleton<EmployeeService>();
             //builder.Services.AddSingleton<IEmployeeService, EmployeeService>();
-            builder.Services.AddSingleton<IEmployeeService, OtherEmployeeService>();
+            builder.Services.AddTransient<IEmployeeService, OtherEmployeeService>();
             builder.Services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
             builder.Services.AddScoped<MyLogServiceFilterAttribute>();
             var app = builder.Build();

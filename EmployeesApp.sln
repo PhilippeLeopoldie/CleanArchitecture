@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApp.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApp.Infrastructure", "EmployeesApp.Infrastructure\EmployeesApp.Infrastructure.csproj", "{FC699604-528C-43B5-869E-EFECD347CF92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesApp.Terminal", "EmployeesApp.Terminal\EmployeesApp.Terminal.csproj", "{B32024D8-9082-400F-B940-513A93E033D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FC699604-528C-43B5-869E-EFECD347CF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC699604-528C-43B5-869E-EFECD347CF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC699604-528C-43B5-869E-EFECD347CF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32024D8-9082-400F-B940-513A93E033D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32024D8-9082-400F-B940-513A93E033D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32024D8-9082-400F-B940-513A93E033D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32024D8-9082-400F-B940-513A93E033D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
