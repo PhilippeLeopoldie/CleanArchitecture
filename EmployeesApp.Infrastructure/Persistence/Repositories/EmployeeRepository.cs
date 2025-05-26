@@ -10,7 +10,7 @@ namespace EmployeesApp.Infrastructure.Persistence.Repositories;
 
 public class EmployeeRepository : IEmployeeRepository
 {
-    readonly List<Employee> employees =
+    public readonly List<Employee> employees =
         [
             new Employee()
             {
